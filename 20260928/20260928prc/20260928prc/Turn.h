@@ -7,7 +7,7 @@ class Turn
 {
 public:
 
-	bool PlayerTurn(Player* player, CardManager* cardManager);
+	bool PlayPlayerTurn(Player* player, CardManager* cardManager);
 
-	void PlayerCputurn(Player* player, );
+	void PlayPlayerCputurn(Player* player,CPU*cpu,CardManager*cardmManager );
 };
